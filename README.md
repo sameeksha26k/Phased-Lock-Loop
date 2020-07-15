@@ -1,6 +1,8 @@
 # Introduction
+> This project is implementation of Phased lock loop using open sourceware and cmos 180nm technology.
+
 ## Phased Lock Loop
-> This is a design of PLL which comprises of a phase detector, Charge Pump, Loop filter, and a voltage-controlled oscillator(VCO) which is current starved.The phase detector or comparator compares the input frequency with feedback frequency. The output of the phase detector is proportional to the phase difference between input and output frequency. The VCO is a sinusoidal generator whose frequency is determined by a voltage applied to it from an external source. In effect, any frequency modulator may serve as a VCO. PLL has quite many applications in this electronics domain which includes Frequency Synthesizer in mobile phones or Clock generation in microprocessors.
+> This PLL comprises of a phase detector, Charge Pump, Loop filter, and a voltage-controlled oscillator(VCO) which is current starved.The phase detector or comparator compares the input frequency with feedback frequency. The output of the phase detector is proportional to the phase difference between input and output frequency. The VCO is a sinusoidal generator whose frequency is determined by a voltage applied to it from an external source. In effect, any frequency modulator may serve as a VCO. PLL has quite many applications in this electronics domain which includes Frequency Synthesizer in mobile phones or Clock generation in microprocessors.
 
 ### Sourceware
 > The design is implemented using one of the open sourceware -`LTSpice`.
